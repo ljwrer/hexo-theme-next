@@ -26,12 +26,12 @@ rss:
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+  categories: /categories
+  about: /about
   archives: /archives
   tags: /tags
-  #commonweal: /404.html
-
+  commonweal: /404.html
+  haha: /haha
 
 # Enable/Disable menu icons.
 # Icon Mapping:
@@ -47,6 +47,7 @@ menu_icons:
   tags: tags
   archives: archive
   commonweal: heartbeat
+  haha: smile-o
 
 
 
@@ -56,9 +57,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -73,7 +74,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host:
+  host: //fonts.lug.ustc.edu.cn/
 
   # Global font settings used on <body> element.
   global:
@@ -130,7 +131,7 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
+  GitHub: https://github.com/ljwrer
   Twitter: twitter
   Weibo: weibo
 
@@ -138,7 +139,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: /images/avatar.jpeg
 
 
 # Table Of Ccontents in the Sidebar
@@ -212,7 +213,7 @@ auto_excerpt:
   #description: ex. subscribe to my blog by scanning my public wechat account
 
 
-  
+
 
 # ---------------------------------------------------------------
 # Third Party Services Settings
@@ -296,15 +297,15 @@ busuanzi_count:
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
-  site_uv_footer: 
+  site_uv_footer:
   # custom pv span for the whole site
   site_pv: true
   site_pv_header: <i class="fa fa-eye"></i>
-  site_pv_footer: 
+  site_pv_footer:
   # custom pv span for one page only
   page_pv: true
   page_pv_header: <i class="fa fa-file-o"></i>
-  page_pv_footer: 
+  page_pv_footer:
 
 # Tencent analytics ID
 # tencent_analytics:
